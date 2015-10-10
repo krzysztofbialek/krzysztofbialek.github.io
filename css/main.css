@@ -1,0 +1,231 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,100,300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+
+body { 
+	background-color: #042c38;
+	color: white;
+}
+
+section {
+	max-width: 1200px;
+	margin: auto;
+}
+
+#logo{
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+#intro h1 {
+  font-size: 50px;
+  font-family: "Open Sans";
+  color: rgb(26, 188, 241);
+  line-height: 1.2;
+  text-align: left;
+  max-width: 540px;
+  margin-bottom: 40px;
+}
+
+#intro p {
+  font-size: 16px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  line-height: 1.875;
+}
+
+#phone{
+	position: absolute;
+	left: -200px;
+}
+
+.phone-container{
+	height: 570px;
+}
+
+#googlePlay{
+	display: block;
+}
+
+#googlePlay img{
+	display: block;
+  margin: auto;
+  position: relative;
+  bottom: -50px;
+}
+
+#features{
+	padding: 100px 30px;
+  padding-bottom: 20px;
+}
+
+#features img{
+	margin: auto;
+	display: block;
+	margin-bottom: 20px;
+}
+
+#features p{
+  font-size: 16px;
+  font-family: "OpenSans";
+  color: rgb(93, 93, 93);
+  line-height: 1.625;
+  text-align: center;
+  max-width: 220px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+#company{
+	min-height: 100px;
+	padding-top: 25px;
+	border-bottom: 1px solid rgba(255,255,255,0.2)
+}
+
+#company {
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  line-height: 1.5;
+  text-align: left;
+  font-size: 12px;
+}
+
+#company .company-info{
+	padding-left: 0;
+}
+
+#company .details{
+	float: left;
+}
+
+#company .details ul{
+	width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;
+	list-style: none;	
+	padding-left: 0;
+}
+
+#company .details li{
+	float: left;
+	margin-right: 40px;
+}
+
+#company .details li:last-child{
+	float: left;
+	margin-right: 0;
+}
+
+#company .details:after {
+	content: "";
+	width: 100%;
+	display: inline-block;
+}
+
+#company .no-pad{
+	padding-left: 0px;
+}
+
+#company .contact {
+	float: right;
+}
+
+#company .contact p {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: rgb(13, 178, 234);
+  text-align: left;
+  height: 52px;
+  width: 430px;
+  float: right;
+  line-height: 1.7;
+	padding-left: 60px;
+	background: url(../images/mail_circle.png) no-repeat;
+}
+
+#company .contact p a{
+	color: #fff;
+	display: block;
+}
+
+#footer p{
+	margin: auto;	
+  font-size: 12px;
+  font-family: "Open Sans";
+  color: rgb(103, 138, 149);
+  line-height: 1.5;
+  text-align: center;
+  padding: 20px 0;
+}
+
+@media only screen and (max-width: 1200px){
+	#company{
+			padding-left: 20px;
+			padding-right: 20px;
+	}
+}
+
+@media only screen and (max-width: 992px){
+	#logo {
+		margin: auto;
+		display: block;
+		margin-top: 40px;
+		margin-bottom: 30px;
+	}
+
+	#intro h1, #intro p {
+		text-align: center;
+		max-width: 100%;
+	}
+
+	.phone-container{
+		display: none;
+	}
+
+	#company .contact{
+		float: none;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+
+	#company .contact p {
+		float: none;
+		margin: auto;
+	}
+
+	#company .details {
+		float: none;
+	}
+
+	#company .details ul{
+		margin: auto;
+		float: none;
+	}
+
+	#company .details li{
+    display: inline-block;
+    vertical-align: top;
+	}
+}
+
+@media only screen and (max-width: 495px){
+
+	#company .details li:first-child{
+		float: none;
+		margin: auto;
+		display: block;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	#company .details li:nth-child(2){
+		margin-right: 30px;
+	}
+
+	#company .contact p {
+		background: none;
+		text-align: center;
+		padding-left: 0;
+		width: 100%;
+		margin-bottom: 30px;
+	}
+}
