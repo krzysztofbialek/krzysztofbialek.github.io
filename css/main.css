@@ -25,7 +25,6 @@ section {
   max-width: 540px;
   margin-bottom: 40px;
 }
-
 #intro p {
   font-size: 16px;
   font-family: "Open Sans";
@@ -34,8 +33,8 @@ section {
 }
 
 #phone{
-	position: absolute;
-	left: -200px;
+	position: relative;
+	left: -300px;
 }
 
 .phone-container{
